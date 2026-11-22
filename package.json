@@ -1,0 +1,13 @@
+{
+  "name": "caresummary",
+  "version": "1.0.0",
+  "description": "CareSummary — a SMART on FHIR patient app for Epic (vitals, labs, medications)",
+  "private": true,
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "setup": "node -e \"const f=require('fs');f.existsSync('.env')?console.log('.env already exists'):(f.copyFileSync('.env.example','.env'),console.log('Created .env, now add your client IDs'))\"",
+    "update-endpoints": "node scripts/update-endpoints.js"
+  }
+}
