@@ -9,6 +9,20 @@ A SMART on FHIR patient app for **Epic**. Patients sign in with MyChart and see 
 
 Runs in the browser using OAuth 2.0 with PKCE. Patient data goes straight from Epic to the browser and is never stored.
 
+## Screenshots
+
+**1. Pick a health system**
+
+![CareSummary sign-in page](docs/login.webp)
+
+**2. Sign in with MyChart**
+
+![MyChart login page](docs/mychart.webp)
+
+**3. See the health record** (Epic sandbox test patient)
+
+![CareSummary dashboard](docs/dashboard.webp)
+
 ## Requirements
 
 - [Node.js](https://nodejs.org) 18+ (no dependencies)
